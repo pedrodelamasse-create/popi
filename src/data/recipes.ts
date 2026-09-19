@@ -7,27 +7,42 @@ import type { Recipe } from "../types/recipe";
  */
 export const recipes: Recipe[] = [
   {
-    slug: "bowl-carottes-roties-houmous-graines",
-    titre: "Bowl croquant carottes rôties, houmous et graines",
-    tags: ["Vegan", "Sans gluten"],
+    slug: "salade-chou-fleur-noisettes-stracciatella",
+    titre: "Salade tiède de chou-fleur rôti, noisettes et stracciatella",
+    image: "/images/recettes/salade-chou-fleur-noisettes-stracciatella.jpg",
+    imageAlt:
+      "Assiette creuse à motifs bleus garnie de chou-fleur rôti, noisettes, céleri, stracciatella, ciboulette et copeaux de parmesan",
+    tags: ["Végétarien", "Sans gluten"],
+    // TODO: quantités, temps et étapes rédigés d'après la liste d'ingrédients de Pauline
+    // (deux ingrédients manquants dans son message) — à valider avec elle.
     preparation_min: 15,
     cuisson_min: 25,
     portions: 5,
     intro:
-      "Tu cherches un dîner qui fait du bien sans passer des heures derrière les fourneaux ? Ce bowl coloré coche toutes les cases : croquant, fondant, et prêt en moins de 45 minutes.",
+      "Du chou-fleur rôti bien doré, des noisettes qui croquent et une stracciatella toute crémeuse. Ce plat tiède se prépare en un clin d'œil et fait son petit effet sur la table.",
     ingredients: {
-      "LA BASE": ["1 kg de carottes", "2 c. à soupe d'huile d'olive", "1 c. à café de cumin", "Sel, poivre"],
-      "LE HOUMOUS": ["400 g de pois chiches cuits", "2 c. à soupe de tahini", "1 gousse d'ail", "Le jus d'1 citron"],
-      "POUR SERVIR": ["1 poignée de graines de courge", "Quelques feuilles de menthe fraîche"],
+      "LA BASE": [
+        "1 gros chou-fleur",
+        "4 branches de céleri",
+        "100 g de noisettes",
+        "2 c. à soupe d'huile d'olive",
+        "Sel, poivre",
+      ],
+      "POUR SERVIR": [
+        "250 g de stracciatella",
+        "1 botte de ciboulette",
+        "Quelques copeaux de parmesan",
+      ],
     },
     etapes: [
       "PRÉCHAUFFEZ le four à 200°C.",
-      "COUPEZ les carottes en bâtonnets, enrobez-les d'huile, de cumin, de sel et de poivre.",
-      "ENFOURNEZ 25 minutes, jusqu'à ce qu'elles soient bien tendres.",
-      "MIXEZ les pois chiches avec le tahini, l'ail et le jus de citron jusqu'à obtenir une texture lisse.",
-      "DRESSEZ les carottes rôties sur le houmous, parsemez de graines et de menthe.",
+      "DÉTAILLEZ le chou-fleur en petits bouquets, enrobez-les d'huile, de sel et de poivre.",
+      "ENFOURNEZ 25 minutes, jusqu'à ce qu'ils soient bien dorés.",
+      "TORRÉFIEZ les noisettes à sec dans une poêle pendant 5 minutes.",
+      "ÉMINCEZ finement le céleri et CISELEZ la ciboulette.",
+      "DRESSEZ le chou-fleur tiède, le céleri et les noisettes dans un plat creux.",
+      "DÉPOSEZ la stracciatella, parsemez de ciboulette et de copeaux de parmesan.",
     ],
-    bases_reutilisees: ["houmous"],
   },
   {
     slug: "curry-lentilles-corail-lait-coco",

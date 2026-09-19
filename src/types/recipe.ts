@@ -9,6 +9,9 @@ export type RecipeTag =
 export interface Recipe {
   slug: string;
   titre: string;
+  /** Photo du plat, ex. "/images/recettes/mon-slug.jpg" (dossier public/). Placeholder si absente. */
+  image?: string;
+  imageAlt?: string;
   tags: RecipeTag[];
   preparation_min: number;
   cuisson_min: number;

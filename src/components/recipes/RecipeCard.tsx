@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import type { Recipe } from "../../types/recipe";
-import { PlaceholderImage } from "../ui/PlaceholderImage";
+import { PhotoOrPlaceholder } from "../ui/PhotoOrPlaceholder";
 import { MetaItem } from "../ui/MetaItem";
 import { Tag } from "../ui/Tag";
 
@@ -16,7 +16,9 @@ export function RecipeCard({ recipe }: RecipeCardProps) {
       className="group flex flex-col overflow-hidden rounded-lg bg-parchment shadow-card transition-shadow duration-color ease-popi hover:shadow-card-raised"
     >
       <div className="h-48 w-full overflow-hidden">
-        <PlaceholderImage
+        <PhotoOrPlaceholder
+          src={recipe.image}
+          alt={recipe.imageAlt}
           icon="restaurant"
           className="transition-transform duration-image ease-popi group-hover:scale-105"
         />

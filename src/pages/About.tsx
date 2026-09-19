@@ -1,14 +1,27 @@
+import { useState } from "react";
 import { PlaceholderImage } from "../components/ui/PlaceholderImage";
 import { StatCard } from "../components/ui/StatCard";
 import { Icon } from "../components/ui/Icon";
 import { siteConfig } from "../data/site.config";
 
 export function About() {
+  // Si le fichier du portrait n'est pas (encore) présent, on garde le placeholder.
+  const [portraitOk, setPortraitOk] = useState(true);
+
   return (
     <div className="mx-auto flex max-w-content flex-col gap-section px-margin-mobile py-12 md:px-margin-desktop">
       <section className="grid grid-cols-1 items-center gap-8 md:grid-cols-2">
-        <div className="aspect-square w-full overflow-hidden rounded-lg shadow-card md:order-2">
-          <PlaceholderImage icon="person" label="Portrait de Pauline à venir" />
+        <div className="mx-auto aspect-[3/4] w-full max-w-md overflow-hidden rounded-lg shadow-image md:order-2">
+          {portraitOk ? (
+            <img
+              src={siteConfig.portraitPauline}
+              alt="Portrait de Pauline, souriante, en noir et blanc"
+              className="h-full w-full object-cover object-top"
+              onError={() => setPortraitOk(false)}
+            />
+          ) : (
+            <PlaceholderImage icon="person" label="Portrait de Pauline à venir" />
+          )}
         </div>
         <div className="flex flex-col gap-4 md:order-1">
           <h1 className="text-headline-lg-mobile font-display text-forest md:text-headline-lg">

@@ -11,4 +11,6 @@ export const siteConfig = {
   plausibleDomain: import.meta.env.VITE_PLAUSIBLE_DOMAIN || "",
   instagramUrl: import.meta.env.VITE_INSTAGRAM_URL || "https://instagram.com/popi_food",
   dateLancement: "2026-09-17",
+  /** Portrait de Pauline (page À propos). Fichier à déposer dans public/images/. */
+  portraitPauline: "/images/pauline.jpg",
 };

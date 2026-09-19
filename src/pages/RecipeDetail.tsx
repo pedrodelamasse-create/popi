@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { getRecipeBySlug } from "../data/recipes";
-import { PlaceholderImage } from "../components/ui/PlaceholderImage";
+import { PhotoOrPlaceholder } from "../components/ui/PhotoOrPlaceholder";
 import { Tag } from "../components/ui/Tag";
 import { StatCard } from "../components/ui/StatCard";
 import { IngredientList } from "../components/recipes/IngredientList";
@@ -17,7 +17,13 @@ export function RecipeDetail() {
   return (
     <article className="flex flex-col gap-section pb-section">
       <div className="h-72 w-full md:h-96">
-        <PlaceholderImage icon="restaurant" label="Photo du plat à venir" />
+        <PhotoOrPlaceholder
+          src={recipe.image}
+          alt={recipe.imageAlt}
+          icon="restaurant"
+          placeholderLabel="Photo du plat à venir"
+          className="object-center"
+        />
       </div>
 
       <div className="mx-auto flex w-full max-w-content flex-col gap-8 px-margin-mobile md:px-margin-desktop">
