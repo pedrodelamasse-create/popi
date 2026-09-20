@@ -4,6 +4,7 @@ export type RecipeTag =
   | "Sans gluten"
   | "Sans cuisson"
   | "Sans lactose"
+  | "Poisson"
   | "Riche en protéines";
 
 export interface Recipe {

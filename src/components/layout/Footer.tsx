@@ -14,6 +14,7 @@ export function Footer() {
 
         <nav className="flex flex-wrap gap-x-6 gap-y-2 text-label-md uppercase text-on-surface-variant">
           <Link to="/recettes" className="hover:text-forest">Recettes</Link>
+          <Link to="/liste-de-courses" className="hover:text-forest">Courses</Link>
           <Link to="/fermes" className="hover:text-forest">Fermes</Link>
           <Link to="/a-propos" className="hover:text-forest">À propos</Link>
           <Link to="/communaute" className="hover:text-forest">Communauté</Link>

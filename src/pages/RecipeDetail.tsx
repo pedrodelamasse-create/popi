@@ -39,7 +39,7 @@ export function RecipeDetail() {
 
         <div className="grid grid-cols-3 gap-4">
           <StatCard icon="schedule" label="Préparation" value={`${recipe.preparation_min} mn`} />
-          <StatCard icon="local_fire_department" label="Cuisson" value={`${recipe.cuisson_min} mn`} />
+          <StatCard icon="local_fire_department" label="Cuisson" value={recipe.cuisson_min > 0 ? `${recipe.cuisson_min} mn` : "Aucune"} />
           <StatCard icon="groups" label="Portions" value={`${recipe.portions} pers.`} />
         </div>
 

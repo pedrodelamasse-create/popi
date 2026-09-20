@@ -5,6 +5,7 @@ import { Home } from "./pages/Home";
 import { About } from "./pages/About";
 import { Recipes } from "./pages/Recipes";
 import { RecipeDetail } from "./pages/RecipeDetail";
+import { ShoppingList } from "./pages/ShoppingList";
 import { Farms } from "./pages/Farms";
 import { Community } from "./pages/Community";
 import { NotFound } from "./pages/NotFound";
@@ -29,6 +30,7 @@ export default function App() {
         <Route path="/a-propos" element={<About />} />
         <Route path="/recettes" element={<Recipes />} />
         <Route path="/recettes/:slug" element={<RecipeDetail />} />
+        <Route path="/liste-de-courses" element={<ShoppingList />} />
         <Route path="/fermes" element={<Farms />} />
         <Route path="/communaute" element={<Community />} />
         <Route path="*" element={<NotFound />} />

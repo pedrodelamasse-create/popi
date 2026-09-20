@@ -2,9 +2,9 @@ import { Icon } from "../components/ui/Icon";
 import { WhatsAppCta } from "../components/community/WhatsAppCta";
 
 const usages = [
-  { icon: "restaurant", text: "Partage une photo du dîner que tu as préparé cette semaine." },
-  { icon: "agriculture", text: "Montre une photo prise chez l'une des fermes partenaires." },
-  { icon: "diversity_3", text: "Échange avec d'autres foyers qui testent la même semaine detox." },
+  { icon: "restaurant", text: "Partage une photo d'un des dîners que tu auras préparé cette semaine." },
+  { icon: "agriculture", text: "Envoie moi une photo prise chez l'une des fermes partenaires et dis moi ce que tu en as pensé." },
+  { icon: "diversity_3", text: "Échange avec les copines qui testent la même semaine detox." },
 ];
 
 export function Community() {

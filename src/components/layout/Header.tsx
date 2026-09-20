@@ -5,6 +5,7 @@ import { Icon } from "../ui/Icon";
 const links = [
   { to: "/", label: "Accueil" },
   { to: "/recettes", label: "Recettes" },
+  { to: "/liste-de-courses", label: "Courses" },
   { to: "/fermes", label: "Fermes" },
   { to: "/a-propos", label: "À propos" },
   { to: "/communaute", label: "Communauté" },
@@ -22,11 +23,11 @@ export function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-surface-variant bg-surface/95 backdrop-blur-sm">
       <div className="mx-auto flex max-w-content items-center justify-between gap-4 px-margin-mobile py-4 md:px-margin-desktop">
-        <NavLink to="/" className="text-headline-md font-display text-forest" onClick={() => setOpen(false)}>
-          Popi
+        <NavLink to="/" aria-label="Popi — retour à l'accueil" className="flex flex-shrink-0 items-center" onClick={() => setOpen(false)}>
+          <img src="/images/logo-popi-compact.png" alt="Popi" width={263} height={224} className="h-12 w-auto md:h-14" />
         </NavLink>
 
-        <nav className="hidden items-center gap-2 md:flex">
+        <nav className="hidden items-center gap-2 lg:flex">
           {links.map((link) => (
             <NavLink key={link.to} to={link.to} className={linkClass} end={link.to === "/"}>
               {link.label}
@@ -37,7 +38,7 @@ export function Header() {
         <button
           type="button"
           aria-label={open ? "Fermer le menu" : "Ouvrir le menu"}
-          className="flex h-10 w-10 items-center justify-center rounded-pill text-forest md:hidden"
+          className="flex h-10 w-10 items-center justify-center rounded-pill text-forest lg:hidden"
           onClick={() => setOpen((v) => !v)}
         >
           <Icon name={open ? "close" : "menu"} size={28} />
@@ -45,7 +46,7 @@ export function Header() {
       </div>
 
       {open ? (
-        <nav className="flex flex-col gap-1 border-t border-surface-variant bg-surface px-margin-mobile py-4 md:hidden">
+        <nav className="flex flex-col gap-1 border-t border-surface-variant bg-surface px-margin-mobile py-4 lg:hidden">
           {links.map((link) => (
             <NavLink key={link.to} to={link.to} className={linkClass} end={link.to === "/"} onClick={() => setOpen(false)}>
               {link.label}

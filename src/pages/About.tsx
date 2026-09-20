@@ -33,13 +33,13 @@ export function About() {
             </p>
             <p>
               Bien manger ne devrait jamais rimer avec culpabiliser, ni avec des heures passées en
-              cuisine. C'est cette conviction qui m'a poussée à créer Popi, ancrée ici, près de
-              Gambais, entourée de fermes que j'aime autant que leurs producteurs.
+              cuisine. C'est cette conviction qui m'a poussée à créer Popi, ancrée à la
+              campagne, entourée de fermes dans lesquelles on aime aller en famille.
             </p>
             <p>
-              Avec Popi, je veux te montrer qu'on peut manger sainement, respecter la planète et
-              soutenir des prix justes pour les gens qui cultivent nos légumes — le tout sans
-              prise de tête.
+              Avec Popi, je veux te montrer qu'on peut manger sainement, réduire son empreinte sur
+              la planète et soutenir des prix justes pour les producteurs — le tout sans prise de
+              tête.
             </p>
           </div>
           <a
@@ -56,7 +56,7 @@ export function About() {
 
       <section className="grid grid-cols-1 gap-4 sm:grid-cols-3">
         <StatCard icon="favorite" label="Santé" value="Frais & léger" />
-        <StatCard icon="eco" label="Planète" value="100% local" />
+        <StatCard icon="eco" label="Planète" value="Local" />
         <StatCard icon="handshake" label="Équité" value="Prix justes" />
       </section>
     </div>

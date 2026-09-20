@@ -18,9 +18,8 @@ export function Home() {
           Une semaine de dîners veggie, locaux et gourmands
         </h1>
         <p className="max-w-2xl text-body-lg text-on-surface-variant">
-          Popi t'accompagne pour une semaine de dîners 100% végétariens et vegan, préparés avec
-          des produits de saison venus de 5 fermes partenaires près de Gambais. Aucune
-          inscription, aucun blocage : tout le contenu est accessible tout de suite.
+          Popi t'accompagne pour une semaine test de dîners principalement végétariens, mais pas
+          que, préparés avec des produits de saison venus en majorité des fermes proches de chez nous.
         </p>
         <div className="flex flex-wrap gap-4">
           <Button as="link" to="/recettes" variant="primary" size="lg">
@@ -34,7 +33,7 @@ export function Home() {
 
       <section className="mx-auto grid w-full max-w-content grid-cols-1 gap-4 px-margin-mobile sm:grid-cols-3 md:px-margin-desktop">
         <StatCard icon="favorite" label="Santé" value="Frais & léger" />
-        <StatCard icon="eco" label="Planète" value="100% local" />
+        <StatCard icon="eco" label="Planète" value="Local" />
         <StatCard icon="handshake" label="Équité" value="Prix justes" />
       </section>
 
