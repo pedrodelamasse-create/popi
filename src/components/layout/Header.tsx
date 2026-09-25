@@ -12,7 +12,7 @@ const links = [
 ];
 
 const linkClass = ({ isActive }: { isActive: boolean }) =>
-  `rounded-pill px-4 py-2 text-label-md uppercase transition-colors duration-color ease-popi ${
+  `flex min-h-11 items-center rounded-pill px-4 text-label-md uppercase transition-colors duration-color ease-popi ${
     isActive ? "bg-secondary-container text-on-secondary-container" : "text-on-surface-variant hover:bg-surface-container"
   }`;
 
@@ -38,7 +38,7 @@ export function Header() {
         <button
           type="button"
           aria-label={open ? "Fermer le menu" : "Ouvrir le menu"}
-          className="flex h-10 w-10 items-center justify-center rounded-pill text-forest lg:hidden"
+          className="flex h-11 w-11 items-center justify-center rounded-pill text-forest lg:hidden"
           onClick={() => setOpen((v) => !v)}
         >
           <Icon name={open ? "close" : "menu"} size={28} />

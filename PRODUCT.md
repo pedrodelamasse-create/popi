@@ -14,7 +14,7 @@ Familles et foyers de l'Ouest francilien autour de Gambais, Houdan et Montfort-l
 
 ## Product Purpose
 
-Popi est un site pilote de la « Semaine Detox Veggie Locale » : une semaine de dîners 100 % végétariens (majorité de vegan), avec des produits de fermes voisines, dans l'esprit d'une remise en forme de rentrée. Il présente Pauline et Popi, les recettes, une liste de courses en trois niveaux, les cinq fermes partenaires sur une carte, et il mène vers un groupe WhatsApp de la communauté. Le succès se mesure en visites, temps passé sur les fiches recette, clics vers la carte et clics vers WhatsApp.
+Popi est un site pilote de la « Semaine Detox Veggie Locale » : une semaine de dîners principalement végétariens (le brief visait 100 % végétarien, mais le carpaccio de betterave au saumon et le ceviche de thon contiennent du poisson ; le texte de l'accueil dit « mais pas que »), avec des produits de fermes voisines, dans l'esprit d'une remise en forme de rentrée. Il présente Pauline et Popi, les recettes, une liste de courses en trois niveaux, les cinq fermes partenaires sur une carte, et il mène vers un groupe WhatsApp de la communauté. Le succès se mesure en visites, temps passé sur les fiches recette, clics vers la carte et clics vers WhatsApp.
 
 ## Positioning
 
