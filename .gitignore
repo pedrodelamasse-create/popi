@@ -7,3 +7,7 @@ dist/
 *.tsbuildinfo
 
 .vercel
+
+# Impeccable : réglages locaux et binaire (réinstallable via npx impeccable install)
+.claude/settings.local.json
+.claude/skills/impeccable/scripts/bin/
