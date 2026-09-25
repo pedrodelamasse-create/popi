@@ -9,7 +9,7 @@ export function Footer() {
       <div className="mx-auto flex max-w-content flex-col gap-6 px-margin-mobile py-10 md:flex-row md:items-center md:justify-between md:px-margin-desktop">
         <div>
           <p className="text-headline-md font-display text-forest">Popi</p>
-          <p className="text-body-md text-on-surface-variant">La semaine detox veggie locale, près de Gambais.</p>
+          <p className="text-body-md text-on-surface-variant">La semaine légère mais gourmande</p>
         </div>
 
         <nav className="flex flex-wrap gap-x-6 gap-y-2 text-label-md uppercase text-on-surface-variant">

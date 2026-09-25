@@ -31,10 +31,11 @@ export function RecipeCard({ recipe }: RecipeCardProps) {
           ))}
         </div>
         <p className="text-body-md text-on-surface-variant">{recipe.intro}</p>
-        <div className="mt-auto flex items-center gap-4 border-t border-surface-variant pt-4">
-          <MetaItem icon="schedule">
-            {recipe.preparation_min + recipe.cuisson_min} min
-          </MetaItem>
+        <div className="mt-auto flex flex-wrap items-center gap-x-4 gap-y-2 border-t border-surface-variant pt-4">
+          <MetaItem icon="schedule">Prépa {recipe.preparation_min} min</MetaItem>
+          {recipe.cuisson_min > 0 ? (
+            <MetaItem icon="local_fire_department">Cuisson {recipe.cuisson_min} min</MetaItem>
+          ) : null}
           <MetaItem icon="groups">Pour {recipe.portions}</MetaItem>
         </div>
       </div>

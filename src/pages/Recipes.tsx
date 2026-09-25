@@ -10,8 +10,8 @@ export function Recipes() {
           Les dîners de la semaine
         </h1>
         <p className="max-w-2xl text-body-lg text-on-surface-variant">
-          Cinq dîners principalement végétariens, pensés pour une famille de 5 — mais tout aussi bons à
-          deux ou à quatre. Aucune recette n'est verrouillée.
+          Des dîners principalement (pesco)végétariens, pensés pour une famille de 5 — mais tout aussi
+          bons à deux ou à quatre.
         </p>
         <div>
           <Button as="link" to="/liste-de-courses" variant="outline" size="sm" icon="checklist">

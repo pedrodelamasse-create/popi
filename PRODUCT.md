@@ -14,7 +14,7 @@ Familles et foyers de l'Ouest francilien autour de Gambais, Houdan et Montfort-l
 
 ## Product Purpose
 
-Popi est un site pilote de la « Semaine Detox Veggie Locale » : une semaine de dîners principalement végétariens (le brief visait 100 % végétarien, mais le carpaccio de betterave au saumon et le ceviche de thon contiennent du poisson ; le texte de l'accueil dit « mais pas que »), avec des produits de fermes voisines, dans l'esprit d'une remise en forme de rentrée. Il présente Pauline et Popi, les recettes, une liste de courses en trois niveaux, les cinq fermes partenaires sur une carte, et il mène vers un groupe WhatsApp de la communauté. Le succès se mesure en visites, temps passé sur les fiches recette, clics vers la carte et clics vers WhatsApp.
+Popi est un site pilote de la « Semaine Detox Veggie Locale » : une semaine de dîners principalement végétariens (le brief visait 100 % végétarien, mais le carpaccio de betterave au saumon et le ceviche de thon contiennent du poisson ; le texte de l'accueil parle de « tendre vers des produits pesco-végétariens » avec des filières de pêche durables), avec des produits de fermes voisines, dans l'esprit d'une remise en forme de rentrée. Il présente Pauline et Popi, les recettes, une liste de courses en trois niveaux, les cinq fermes partenaires sur une carte, et il mène vers un groupe WhatsApp de la communauté. Le succès se mesure en visites, temps passé sur les fiches recette, clics vers la carte et clics vers WhatsApp.
 
 ## Positioning
 
@@ -52,7 +52,7 @@ Une semaine de dîners veggie construite avec des fermes précises et identifiab
 - Photos réelles des recettes 1 à 4 : `public/images/recettes/` (salade de chou-fleur, carpaccio de betterave, ceviche de thon blanc, roulés de courgettes).
 - Photos réelles des 5 fermes : `public/images/fermes/`. Deux d'entre elles sont petites (Orvilliers 233×216, Sources 194×259) et paraissent floues en grand.
 - Adresses et coordonnées des 5 fermes ; deux positions sont approximatives (Orvilliers, Tremblaye).
-- Absent, à ne pas inventer : témoignages des fermes, texte définitif de Pauline (placeholder `[TEXTE À VALIDER AVEC PAULINE]`), quantités et étapes validées des recettes 1 à 4, photos des recettes 5 à 7, chiffres d'audience.
+- Absent, à ne pas inventer : témoignages des fermes, validation par Pauline du texte de la page À propos (il n'a plus de marqueur « à valider » sur le site, mais elle ne l'a pas encore relu), quantités et étapes validées des recettes 1 à 4, photos des recettes 5 à 7, chiffres d'audience.
 - Les informations sur les fermes doivent encore être validées avec chacune (exactitude, accord pour le nom et la photo).
 
 ## Product Principles

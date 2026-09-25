@@ -29,7 +29,7 @@ export function About() {
           </h1>
           <div className="flex flex-col gap-4 rounded-lg border border-dashed border-outline-variant bg-surface-container p-6 text-body-lg text-on-surface">
             <p className="text-label-sm uppercase tracking-[0.08em] text-sienna">
-              [TEXTE À VALIDER AVEC PAULINE]
+              On s'y met ?
             </p>
             <p>
               Bien manger ne devrait jamais rimer avec culpabiliser, ni avec des heures passées en
@@ -56,7 +56,7 @@ export function About() {
 
       <section className="grid grid-cols-1 gap-4 sm:grid-cols-3">
         <StatCard icon="favorite" label="Santé" value="Frais & léger" />
-        <StatCard icon="eco" label="Planète" value="Local" />
+        <StatCard icon="eco" label="Planète" value="Circuit-court" />
         <StatCard icon="handshake" label="Équité" value="Prix justes" />
       </section>
     </div>

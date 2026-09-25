@@ -15,11 +15,12 @@ export function Home() {
           Semaine detox de rentrée
         </span>
         <h1 className="text-headline-lg-mobile font-display text-forest md:text-display-lg">
-          Une semaine de dîners veggie, locaux et gourmands
+          Une semaine de dîners légers mais gourmands
         </h1>
         <p className="max-w-2xl text-body-lg text-on-surface-variant">
-          Popi t'accompagne pour une semaine test de dîners principalement végétariens, mais pas
-          que, préparés avec des produits de saison venus en majorité des fermes proches de chez nous.
+          Popi t'accompagne pour une semaine test de dîners frais et légers, avec l'idée de tendre
+          vers des produits pesco-végétariens, préparés avec des produits de saison venus en majorité
+          des fermes proches de chez nous et de filières durables de pêche.
         </p>
         <div className="flex flex-wrap gap-4">
           <Button as="link" to="/recettes" variant="primary" size="lg">
@@ -33,7 +34,7 @@ export function Home() {
 
       <section className="mx-auto grid w-full max-w-content grid-cols-1 gap-4 px-margin-mobile sm:grid-cols-3 md:px-margin-desktop">
         <StatCard icon="favorite" label="Santé" value="Frais & léger" />
-        <StatCard icon="eco" label="Planète" value="Local" />
+        <StatCard icon="eco" label="Planète" value="Circuit-court" />
         <StatCard icon="handshake" label="Équité" value="Prix justes" />
       </section>
 
