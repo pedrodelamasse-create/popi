@@ -20,7 +20,7 @@ const sizeClasses: Record<Size, string> = {
 
 const base =
   "inline-flex items-center justify-center gap-2 rounded-pill uppercase font-body cursor-pointer " +
-  "transition-[background-color,color,transform] duration-color ease-popi active:scale-[0.98] " +
+  "transition-[background-color,color,transform] duration-color ease-popi motion-safe:active:scale-[0.98] " +
   "disabled:opacity-40 disabled:pointer-events-none";
 
 interface CommonProps {

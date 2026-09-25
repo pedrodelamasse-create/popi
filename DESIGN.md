@@ -63,6 +63,11 @@ typography:
     fontWeight: 600
     lineHeight: "16px"
     letterSpacing: "0.08em"
+  icon:
+    fontFamily: "Material Symbols Outlined"
+    fontSize: "24px"
+    fontWeight: 400
+    lineHeight: 1
 rounded:
   sm: "1px"
   base: "2px"

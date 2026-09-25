@@ -20,7 +20,7 @@ export function RecipeCard({ recipe }: RecipeCardProps) {
           src={recipe.image}
           alt={recipe.imageAlt}
           icon="restaurant"
-          className="transition-transform duration-image ease-popi group-hover:scale-105"
+          className="transition-transform duration-image ease-popi motion-safe:group-hover:scale-105"
         />
       </div>
       <div className="flex flex-grow flex-col gap-2 p-5">
